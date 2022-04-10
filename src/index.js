@@ -1,2 +1,6 @@
 // Эта функция переворачивает переданную строку
-export default str => str.split('').reverse().join('');
+function string(str) {
+  return str.split('').reverse().join('');
+}
+
+module.exports = string;
